@@ -14,7 +14,7 @@ public class ErrorHandler {
         this.mContext = context;
     }
 
-    public ErrorHandler getInstance(Context context){
+    public static ErrorHandler getInstance(Context context){
         if(mErrorHandler == null){
             mErrorHandler = new ErrorHandler(context);
         }
