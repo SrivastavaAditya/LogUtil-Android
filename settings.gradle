@@ -1,2 +1,2 @@
-include ':app', ':log-util'
+include ':app', ':log-util', ':error-util'
 rootProject.name='LogUtilExample'
